@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
+import logo from "@/assets/logo.png";
 
 interface NavigationProps {
   darkMode: boolean;
@@ -55,7 +56,7 @@ const Navigation = ({ darkMode, setDarkMode, activeSection }: NavigationProps) =
           {/* Logo */}
           <div className="flex items-center">
             <img 
-              src="/src/assets/logo.png" 
+              src={logo} 
               alt="TriFusion Management GmbH Logo" 
               className="h-10 w-auto"
             />

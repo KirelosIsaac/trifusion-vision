@@ -1,10 +1,12 @@
+import logo from "@/assets/logo.png";
+
 const Hero = () => {
   return (
     <section id="home" className="section-padding pt-32 min-h-screen flex items-center">
       <div className="container-custom">
         <div className="max-w-4xl mx-auto text-center fade-in">
           <img 
-            src="/src/assets/logo.png" 
+            src={logo} 
             alt="TriFusion Management GmbH" 
             className="h-32 w-auto mx-auto mb-8"
           />
